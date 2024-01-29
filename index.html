@@ -6,7 +6,6 @@
     <title>김내우 포트폴리오</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./mediaquery.css" />
-    <script src="./script.js" defer></script>
   </head>
   <body>
     <nav id="desktop-nav">
@@ -26,13 +25,56 @@
           <span></span>
           <span></span>
         </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
       </div>
-      <ul class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-      </ul>
     </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/면접사진.jpg" alt="profile" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">안녕하세요</p>
+        <p class="section__text__p2">프론트엔드 신입 개발자</p>
+        <h1 class="title">김내우입니다</h1>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/김내우3차프로젝트.pdf')">
+            이력서 확인하기
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">contact Info</button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/git.jpg"
+            alt="github"
+            class="icon"
+            onclick="location.href='https://github.com/kimnaewoo'"
+          />
+          <img
+            src="./assets/instagram.jpg"
+            alt="github"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/kimnaewoo/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get to Know more</p>
+      <h1 class="title">About me</h1>
+      <div class="section-container">
+        <img src="./assets/Web-profile.jpg" alt="Web-profile" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container"></div>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
   </body>
 </html>
