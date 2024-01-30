@@ -255,3 +255,48 @@ section {
 .text-container span {
   font-weight: bold;
 }
+#experience {
+  position: relative;
+}
+.experience-sub-title {
+  font-weight: 600;
+  margin-bottom: 2rem;
+  font-size: 1.75rem;
+  color: rgb(85, 85, 85);
+}
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+article {
+  display: flex;
+  width: 9rem;
+  justify-content: space-around;
+}
+article .icon {
+  cursor: default;
+}
+#projects {
+  position: relative;
+}
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+.project-img {
+  border-radius: 1rem;
+  width: 90%;
+  height: 90%;
+}
+.project-title {
+  margin: 1rem;
+  color: #000;
+}
+.project-btn {
+  color: #000;
+  border-color: rgb(163, 163, 163);
+}
