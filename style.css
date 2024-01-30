@@ -142,7 +142,7 @@ section {
   display: flex;
   height: 400px;
   width: 400px;
-  margin: 0 auto;
+  margin: auto 0;
 }
 .section__text {
   align-self: center;
@@ -153,7 +153,7 @@ section {
 }
 .section__text__p1 {
   text-align: center;
-  /* margin-bottom: 1rem; */
+  margin-bottom: 1rem;
 }
 .section__text__p2 {
   font-size: 1.75rem;
@@ -162,7 +162,7 @@ section {
   font-size: 3rem;
   text-align: center;
 }
-#social-container {
+#socials-container {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
@@ -204,4 +204,54 @@ section {
 }
 .btn-container {
   gap: 1rem;
+}
+#about {
+  position: relative;
+}
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+.about-pic {
+  border-radius: 2rem;
+}
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: #fff;
+  border-radius: 2rem;
+  border: 0.1rem solid rgb(53, 53, 53);
+  border-color: rgb(163, 163, 163);
+}
+.details-container p {
+  font-size: 0.8rem;
+}
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+.section__pic-container {
+  height: 300px;
+  width: 300px;
+  margin: auto 0;
+}
+.text-container {
+  font-size: 0.9rem;
+}
+.text-container span {
+  font-weight: bold;
 }
