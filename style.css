@@ -262,8 +262,11 @@ section {
 .experience-sub-title {
   font-weight: 600;
   margin-bottom: 2rem;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: rgb(85, 85, 85);
+}
+.article-container span {
+  font-size: 1rem;
 }
 .article-container {
   display: flex;
