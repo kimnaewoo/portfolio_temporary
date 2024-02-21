@@ -9,7 +9,7 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Kim Naewoo</div>
+      <div class="logo">KIM NAEWOO</div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
@@ -34,13 +34,13 @@
       </div>
     </nav>
     <section id="profile">
-      <div class="section__pic-container">
+      <div class="section__pic-container1">
         <img src="./assets/profile.jpg" alt="profile" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">안녕하세요</p>
         <p class="section__text__p2">프론트엔드 신입 개발자</p>
-        <h1 class="title">김내우입니다</h1>
+        <h1 class="title"><김내우 /> 입니다</h1>
         <div class="btn-container">
           <button class="btn btn-color-2" onclick="window.open('./assets/my_resume.pdf')">이력서 확인하기</button>
           <button class="btn btn-color-1" onclick="location.href='./#about'">contact Info</button>
@@ -92,7 +92,6 @@
                 2023. 7. 26 ~ 2024. 01. 19 <br />
                 프론트엔드 웹&앱 SW개발자 과정수료 <br />(그린컴퓨터 아카데미)
               </p>
-
               <p>
                 2019. 4. 10 ~ 2020. 04. 05 <br />
                 워킹 & 홀리데이 (호주 시드니)
@@ -105,7 +104,7 @@
             을 가진 프론트엔드 신입개발자 <span>김내우</span>입니다. 2023년 코딩을 처음 접하였고 웹개발 코딩을 하기 위해
             지금까지 열심히 달리고 있습니다. 다소 부족하지만 부족한 지식은 하루하루 노력으로 채워가고 있습니다.
             <br />빠르게 변하는 웹개발트랜드 속에서, 다양한 시도와 함께 사용자 입장을 고려하며 성실하게 성장하는
-            프론트엔드 개발자가 되겠습니다.
+            프론트엔드 개발자가 될것입니다.
           </div>
         </div>
       </div>
@@ -121,48 +120,71 @@
       <h1 class="title">My Skill</h1>
       <div class="experience-details-container">
         <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="details-container skill-container">
             <div class="article-container">
               <article>
-                <img src="./assets/check.jpg" alt="chcek icon" class="icon" />
-                <div>
+                <div class="article-container-imgbox">
+                  <img src="./html.png" alt="html" class="icon" />
                   <h3>HTML 5</h3>
                   <p>Experienced</p>
                 </div>
+                <div class="article-container-box">
+                  <div class="r-percent">
+                    <div class="a-percent1"></div>
+                  </div>
+                </div>
               </article>
               <article>
-                <img src="./assets/check.jpg" alt="chcek icon" class="icon" />
-                <div>
+                <div class="article-container-imgbox">
+                  <img src="./css.png" alt="html" class="icon" />
                   <h3>CSS 3</h3>
                   <p>Experienced</p>
                 </div>
+                <div class="article-container-box">
+                  <div class="r-percent">
+                    <div class="a-percent1"></div>
+                  </div>
+                </div>
               </article>
               <article>
-                <img src="./assets/check.jpg" alt="chcek icon" class="icon" />
-                <div>
+                <div class="article-container-imgbox">
+                  <img src="./javascript.png" alt="html" class="icon" />
                   <h3>Javscript</h3>
                   <p>Experienced</p>
                 </div>
-              </article>
-              <article>
-                <img src="./assets/check.jpg" alt="chcek icon" class="icon" />
-                <div>
-                  <h3>jQuery</h3>
-                  <p>Experienced</p>
+                <div class="article-container-box">
+                  <div class="r-percent">
+                    <div class="a-percent2"></div>
+                  </div>
                 </div>
               </article>
               <article>
-                <img src="./assets/check.jpg" alt="chcek icon" class="icon" />
-                <div>
+                <div class="article-container-imgbox">
+                  <img src="./react.png" alt="html" class="icon" />
                   <h3>React</h3>
                   <p>Experienced</p>
+                </div>
+                <div class="article-container-box">
+                  <div class="r-percent">
+                    <div class="a-percent2"></div>
+                  </div>
+                </div>
+              </article>
+              <article>
+                <div class="article-container-imgbox">
+                  <img src="./jquery.png" alt="html" class="icon" />
+                  <h3>jQuery</h3>
+                  <p>Experienced</p>
+                </div>
+                <div class="r-percent">
+                  <div class="a-percent3"></div>
                 </div>
               </article>
             </div>
           </div>
         </div>
       </div>
+
       <img src="./assets/bottom-arrow.jpg" alt="arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
     </section>
     <section id="projects">
@@ -173,7 +195,7 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img src="./assets/COYS.jpg" alt="project 1" class="project-img" />
-              <h3 class="experience-sub-title project-title">Tottenham Hotspur</h3>
+              <h2 class="experience-sub-title project-title">Tottenham Hotspur</h2>
               <span
                 >React-Route를 이용하여 편리한 페이지전환, 로컬스토리지에 담은 로그인 기능 등으로 구성되어 있는 Web
                 Project 입니다.</span
@@ -238,7 +260,8 @@
               <img src="./assets/search.jpg" alt="project 1" class="project-img" />
               <h2 class="experience-sub-title project-title">movie Search</h2>
               <span
-                >React를 활용하였으며, TMDB의 Open-api를 활용하여 검색기능 및 페이지네이션을 구현한 Web-project 입니다.<br />(검색기능 추가예정)</span
+                >React를 활용하였으며, TMDB의 Open-api를 활용하여 검색기능 및 페이지네이션을 구현한 Web-project
+                입니다.<br />(검색기능 추가예정)</span
               >
               <div class="btn-container">
                 <button
@@ -265,6 +288,10 @@
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
+          <img src="./phone.jpg" alt="phone icon" class="icon contact-icon email-icon" />
+          <p><a href="#">010 - 4680 - 9592</a></p>
+        </div>
+        <div class="contact-info-container">
           <img src="./assets/email.jpg" alt="Email icon" class="icon contact-icon email-icon" />
           <p><a href="mailto:gnag0403@naver.com">gnag0403@naver.com</a></p>
         </div>
@@ -287,6 +314,12 @@
       </nav>
       <p>Copyright &#169; 2024 KIM NAEWOO All Rights Reserved.</p>
     </footer>
-    <script src="./script.js"></script>
+    <script src="./script.js">
+      function updatePercent(){
+        const percent = document.querySelector('#percent').value;
+        const progress = document.querySelector('progress');
+        progress.style.width = percent +'%';
+      }
+    </script>
   </body>
 </html>
