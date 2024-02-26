@@ -51,7 +51,7 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh;
+    height: 60vh;
   }
   #profile {
     height: 90vh;
@@ -68,11 +68,20 @@
     width: 100%;
   }
   #experience {
-    height: 130vh;
+    height: 110vh;
   }
   article {
     font-size: 1rem;
     flex-direction: column;
+  }
+  .article-container {
+    gap: 0.5rem;
+  }
+  .article-container h4 {
+    /* font-size: 0.8rem; */
+  }
+  .article-container span {
+    font-size: 0.8rem;
   }
   .skill-container {
     padding: 5% 5%;
@@ -98,6 +107,18 @@
   #about {
     height: auto;
   }
+  .about {
+    height: 130vh;
+  }
+  .details-container-exp-wrap {
+    flex-direction: column;
+  }
+  .details-container-exp {
+    gap: 0;
+  }
+  .details-containers p {
+    font-size: 0.8rem;
+  }
   .about-containers {
     margin-top: 15%;
   }
@@ -108,6 +129,13 @@
   }
   .contact-info-container {
     margin: 0;
+  }
+  .text-container {
+    line-height: 15px;
+    white-space: wrap;
+  }
+  .text-container span {
+    font-size: 1rem;
   }
   .contact-info-container P,
   .nav-links li a {
@@ -127,7 +155,8 @@
   .section__pic-container {
     width: auto;
     height: 46vh;
-    justify-content: center;
+    /* justify-content: center; */
+    padding: 8%;
   }
   .section__text__p2 {
     font-size: 1.25rem;
@@ -137,5 +166,8 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .project-containers {
+    flex-direction: column;
   }
 }

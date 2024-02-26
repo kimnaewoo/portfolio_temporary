@@ -215,11 +215,7 @@ section {
   position: relative;
   height: 100vh;
 }
-.about-containers {
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
+
 .about-details-container {
   justify-content: center;
   flex-direction: column;
@@ -227,6 +223,7 @@ section {
 .about-containers,
 .about-details-container {
   display: flex;
+  gap: 5px;
 }
 .about-pic {
   border-radius: 2rem;
@@ -245,37 +242,60 @@ section {
   border: 0.1rem solid rgb(53, 53, 53);
   border-color: rgb(163, 163, 163);
 }
+.details-containers {
+  padding: 1rem;
+  flex: 1;
+  background: #fff;
+  border-radius: 2rem;
+  /* border: 0.1rem solid rgb(53, 53, 53); */
+  border-color: rgb(163, 163, 163);
+}
+.about {
+  position: relative;
+  height: 100vh;
+}
+.details-container-exp-wrap {
+  display: flex;
+}
 .details-container-exp {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 4rem;
 }
-.details-container p {
-  font-size: 1.2rem;
-  padding-bottom: 0.4rem;
+.details-containers p {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
   border-bottom: 1px solid #ccc;
+  color: #000;
 }
 .section-container {
   gap: 4rem;
   height: 80%;
 }
 .section__pic-container {
-  height: 600px;
-  width: 2000px;
   padding: 0.5rem;
+  width: 80%;
+  padding: 5rem;
 }
 .text-container {
+  line-height: 40px;
   font-size: 1.5rem;
+}
+.text-container p {
+  color: #000;
 }
 .text-container span {
   font-weight: bold;
+  font-size: 2rem;
 }
 /* experience */
 #experience {
-  height: 80vh;
+  height: 100vh;
   position: relative;
 }
-
+.experience-details-container {
+  margin-top: 5%;
+}
 .article-container span {
   font-size: 1rem;
 }
