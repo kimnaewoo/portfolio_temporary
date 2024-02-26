@@ -276,7 +276,7 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 1.5rem;
 }
 .article-container-imgbox {
   display: flex;
@@ -350,7 +350,7 @@ article .icon {
   height: 90%;
 }
 .project-title {
-  margin: 1rem;
+  /* margin: 1rem; */
   color: #000;
 }
 .project-btn {
