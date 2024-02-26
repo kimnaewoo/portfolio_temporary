@@ -188,6 +188,7 @@ section {
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
+  white-space: nowrap;
 }
 .btn-color-1,
 .btn-color-2 {
