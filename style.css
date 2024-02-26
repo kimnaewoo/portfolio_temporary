@@ -213,6 +213,7 @@ section {
 }
 #about {
   position: relative;
+  height: 100vh;
 }
 .about-containers {
   gap: 2rem;
@@ -237,15 +238,22 @@ section {
   bottom: 2.5rem;
 }
 .details-container {
-  padding: 1.5rem;
+  padding: 1rem;
   flex: 1;
   background: #fff;
   border-radius: 2rem;
   border: 0.1rem solid rgb(53, 53, 53);
   border-color: rgb(163, 163, 163);
 }
+.details-container-exp {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
 .details-container p {
   font-size: 1.2rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #ccc;
 }
 .section-container {
   gap: 4rem;
@@ -254,7 +262,7 @@ section {
 .section__pic-container {
   height: 600px;
   width: 2000px;
-  margin: auto 0;
+  padding: 0.5rem;
 }
 .text-container {
   font-size: 1.5rem;
