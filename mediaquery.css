@@ -45,7 +45,8 @@
     font-size: 0.7rem;
   }
   .text-container {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    padding: 0.5rem;
   }
 }
 @media screen and (max-width: 600px) {
@@ -68,7 +69,7 @@
     width: 100%;
   }
   #experience {
-    height: 110vh;
+    height: 150vh;
   }
   article {
     font-size: 1rem;
@@ -77,9 +78,7 @@
   .article-container {
     gap: 0.5rem;
   }
-  .article-container h4 {
-    /* font-size: 0.8rem; */
-  }
+
   .article-container span {
     font-size: 0.8rem;
   }
@@ -88,17 +87,12 @@
   }
   .r-percent {
     width: 100%;
-    height: 5vh;
+    height: 11vh;
   }
   .a-percent1 {
     width: 80%;
   }
-  .a-percent2 {
-    width: 70%;
-  }
-  .a-percent3 {
-    width: 60%;
-  }
+
   footer nav {
     height: fit-content;
     margin-top: 1rem;
@@ -118,14 +112,13 @@
   }
   .details-containers p {
     font-size: 0.8rem;
-  }
-  .about-containers {
-    margin-top: 15%;
+    padding-bottom: 0.7rem;
   }
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+    gap: 5px;
   }
   .contact-info-container {
     margin: 0;
@@ -169,5 +162,11 @@
   }
   .project-containers {
     flex-direction: column;
+  }
+  #projects {
+    height: 310vh;
+  }
+  article:nth-of-type(4) {
+    padding-bottom: 1rem;
   }
 }

@@ -224,7 +224,8 @@ section {
 .about-containers,
 .about-details-container {
   display: flex;
-  gap: 5px;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 .about-pic {
   border-radius: 2rem;
@@ -290,17 +291,17 @@ section {
   position: relative;
 }
 .experience-details-container {
-  margin-top: 5%;
+  margin-top: 2%;
 }
 .article-container span {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .article-container {
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 .article-container-imgbox {
   display: flex;
@@ -315,13 +316,13 @@ section {
   flex-direction: row;
   gap: 1rem;
 }
-.skill-container {
-  padding: 1% 15%;
-}
+
 article {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ccc;
 }
 article .icon {
   cursor: default;
@@ -330,39 +331,21 @@ article .icon {
 .r-percent {
   position: relative;
   border-radius: 10px;
-  width: 500px;
+  width: 700px;
   height: 50px;
-  background-color: #ddd;
 }
 .a-percent1 {
   position: absolute;
   border-radius: 10px;
-  top: 0;
-  left: 0;
-  width: 400px;
+  top: 12px;
+  left: 10px;
+  width: 100%;
   height: 100%;
-  background-color: rgb(30, 144, 256);
-}
-.a-percent2 {
-  position: absolute;
-  border-radius: 10px;
-  top: 0;
-  left: 0;
-  width: 300px;
-  height: 100%;
-  background-color: rgb(50, 205, 50);
-}
-.a-percent3 {
-  position: absolute;
-  border-radius: 10px;
-  top: 0;
-  left: 0;
-  width: 250px;
-  height: 100%;
-  background-color: rgb(256, 215, 0);
+  font-size: 0.9rem;
 }
 #projects {
   position: relative;
+  height: 200vh;
 }
 .color-container {
   border-color: rgb(163, 163, 163);
