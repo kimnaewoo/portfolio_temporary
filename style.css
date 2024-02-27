@@ -124,6 +124,7 @@ a:hover {
   transform: none;
 }
 section {
+  max-width: 1024px;
   padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
@@ -260,33 +261,28 @@ section {
 .details-container-exp {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 1rem;
 }
 .details-containers p {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   padding-bottom: 1rem;
   border-bottom: 1px solid #ccc;
   color: #000;
 }
 .section-container {
-  gap: 4rem;
   height: 80%;
 }
 .section__pic-container {
-  padding: 0.5rem;
-  width: 80%;
+  width: 100%;
   padding: 5rem;
 }
-.text-container {
-  line-height: 40px;
-  font-size: 1.5rem;
-}
+
 .text-container p {
   color: #000;
 }
 .text-container span {
   font-weight: bold;
-  font-size: 2rem;
+  /* font-size: 2rem; */
 }
 /* experience */
 #experience {
