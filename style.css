@@ -24,6 +24,7 @@ nav,
 nav {
   position: sticky;
   display: flex;
+  padding: 0.7rem 0;
   justify-content: space-around;
   align-items: center;
   top: 0;
@@ -62,6 +63,7 @@ a:hover {
 }
 #hamburger-nav {
   display: none;
+  padding: 0.7rem 0;
 }
 .hamburger-menu {
   position: relative;
@@ -190,7 +192,7 @@ section {
 #socials-container {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  padding-top: 1rem;
   gap: 1rem;
 }
 .icon {
@@ -205,7 +207,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  padding: 1rem;
+  padding-top: 2rem;
 }
 .btn {
   font-weight: 600;
